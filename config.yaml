@@ -1,0 +1,4 @@
+options:
+  registration-token:
+    type: string
+    description: "Token used to register the runner with GitLab."

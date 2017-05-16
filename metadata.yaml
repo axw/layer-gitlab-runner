@@ -1,0 +1,16 @@
+name: gitlab-runner
+summary: GitLab Runner runs GitLab CI jobs.
+maintainer: Andrew Wilkins <andrew.wilkins@canonical.com>
+description: |
+  GitLab Runner is the open source project that is used to run your jobs and
+  send the results back to GitLab. It is used in conjunction with GitLab CI,
+  the open-source continuous integration service included with GitLab that
+  coordinates the jobs.
+tags:
+  - application_development
+  - version_control
+series:
+  - xenial
+requires:
+  gitlab-master:
+    interface: gitlab-runner
